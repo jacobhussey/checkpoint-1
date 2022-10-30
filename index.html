@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/6.9.96/css/materialdesignicons.min.css">
+    <script src="https://kit.fontawesome.com/6b3bc4a406.js" crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/ninja-naruto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body.debug .container,
+    body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+    }
+
+    body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+    }
+</style>
+
+<body></body>
+
+<!-- SECTION NAVBAR -->
+<header class="container-fluid sticky-top">
+    <section class="row align-items-center">
+        <div class="col-12 bg-black text-light text-shadow font-import p-2 pt-3">
+            <h1 class="ms-2 ms-md-0 ps-3 ps-md-4"><i class="fa-solid fa-user-ninja me-3"></i><b
+                    class="naruto me-2">NARUTO</b>
+                VS<b class="sasuke ms-2">SASUKE</b></h1>
+        </div>
+    </section>
+</header>
+
+<main class="container-fluid">
+
+    <!-- SECTION FORM -->
+    <section class="row bg-img text-light">
+        <form class="col-11 col-md-2 bg-white rounded text-dark pb-2 ms-3 mt-4 m-md-5">
+            <div class="mb-3">
+                <div id="emailHelp" class="form-text text-center">SIGN IN</div>
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">I am not a robot</label>
+            </div>
+            <div><button type="submit" class="mt-5 btn btn-danger">Submit</button></div>
+        </form>
+
+        <div class="col-4 pt-5 ms-md-5 ps-md-5 mt-md-4">
+            <div class="d-none d-md-block font-import text-black">
+                <h1 class="fw-bold text-shadow-2">Naruto <b class="text-shadow-1">VS</b> Sasuke</h1>
+                <p class="text-shadow-1">THE FINAL VALLEY</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CARD  -->
+    <section class="row bg-black text-light justify-content-between">
+        <div class="col-md-3 d-flex align-items-center ps-md-5 mt-4 ps-5 mb-5 order-2 order-md-1">
+            <div class="font-import pt-3 text-shadow">
+                <h3>“Growth occurs when one goes beyond one’s limits. Realizing that is also part of training.”<h3
+                        class="text-black text-shadow-1"> – Itachi
+                        Uchiha</h3>
+                </h3>
+            </div>
+        </div>
+        <div
+            class="col-11 col-md-7 text-dark bg-white rounded move-down box-shadow mt-5 mt-md-0 ms-3 me-md-5 pt-md-2 order-1 order-md-2">
+            <div class="row p-2 pt-3">
+                <i class="col-1 d-flex justify-content-center fa-solid fa-fan fs-3 text-primary"></i>
+                <p class="col-11"><b class="text-primary">The Rasengan</b> is a spinning ball of chakra formed and held
+                    in the palm of the
+                    user's
+                    hand,
+                    which is only known to a handful of shinobi.</p>
+            </div>
+            <div class="row p-2">
+                <i class="col-1 d-flex justify-content-center fa-solid fa-fan fs-3 text-info"></i>
+                <p class="col-11"><b class="text-info">The Chidori</b> is a high concentration of lightning chakra
+                    channelled around the
+                    user's
+                    hand.</p>
+            </div>
+            <div class="row p-2">
+                <i class="col-1 d-flex justify-content-center fa-solid fa-fan fs-3"></i>
+                <p class="col-11"><b>The Shadow Clone Technique</b> was created by Tobirama Senju. This jutsu allows the
+                    user
+                    to create one or more copy of themselves.</p>
+            </div>
+            <div class="row p-2">
+                <i class="col-1 d-flex justify-content-center fa-solid fa-fan fs-3 text-danger"></i>
+                <p class="col-11"><b class="text-danger">Fire Style: Fireball Jutsu</b> is native to the Uchiha Clan.
+                    The user converts
+                    kneaded
+                    chakra inside their body into fire, and expells it from their mouth in a massive orb of roaring
+                    flame.</p>
+            </div>
+            <div class="row p-2">
+                <i class="col-1 d-flex justify-content-center fa-solid fa-fan fs-3 text-success"></i>
+                <p class="col-11"><b class="text-success">Sage Mode</b> is an empowered state that can be entered by
+                    blending natural energy
+                    with
+                    one's chakra, creating senjutsu chakra.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION PHOTO -->
+    <section class="row align-items-center text-dark">
+        <div class="col-md-3 p-3 p-md-0 m-md-5 me-md-0 stack">
+            <img class=" image" src="https://i.ebayimg.com/images/g/TogAAOSwTUZdAymC/s-l500.jpg" alt="">
+        </div>
+        <div class="col-md-8 mt-md-5 ms-md-2">
+            <div>
+                <h1 class="font-import"><i class="fa-solid fa-star-of-life me-2 text-primary"></i><b
+                        class="text-danger">Nindō</b>
+                    (忍道) is a
+                    personal rule that each shinobi
+                    lives by.
+                </h1>
+                <h4> It is their way of ninja life, their motto, belief, or "dream". A ninja's nindō can be anything, no
+                    matter how immoral their personal point of view is. Most often Naruto Uzumaki proclaims his ninja
+                    way, to be: "I'm not gonna run away and I never go back on my word, that is my nindō! My ninja way!
+                    According to Tobi, the nindō of the Uchiha clan is to exact revenge against their hated enemies.
+                </h4>
+            </div>
+        </div>
+        <!-- maybe add another row here to put a button on bottom right of this row -->
+    </section>
+
+    <!-- SECTION THREE CARDS -->
+    <section class="row justify-content-evenly align-items-center font-import p-5">
+        <div
+            class="col-md-3 col-12 card card-hover orochimaru text-center text-white text-shadow-1 p-5 mb-5 mb-md-0 small-card order-2 order-md-1">
+            <h3>OROCHIMARU</h3>
+        </div>
+        <div
+            class="col-md-3 col-12 card big-card-hover itachi text-center text-white text-shadow-1 p-5 mb-5 mb-md-0 big-card order-1 order-md-2">
+            <h1>ITACHI UCHIHA</h1>
+        </div>
+        <div
+            class="col-md-3 col-12 card card-hover pain text-center text-white text-shadow-1 p-5 mb-5 mb-md-0 small-card order-3 order-md-3">
+            <h3>NAGATO PAIN</h3>
+        </div>
+    </section>
+
+    <!-- SECTION BOTTOM -->
+    <section class="row bg-black text-light ps-4 justify-content-center text-center py-3 pt-5">
+        <div class="col-md-10 pe-4 pe-md-0">
+            <h1 class="font-import">You <b class="text-primary">will</b> find the answer. I believe in you.</h1>
+            <h5 class="text-warning">– Minato Namikaze</h5>
+        </div>
+    </section>
+
+
+</main>
+
+<footer>
+    <!-- place footer here -->
+    <section>
+        <div class="col-12 d-flex justify-content-center">
+            <i class="mdi mdi-instagram fs-2 m-1"></i>
+            <i class="mdi mdi-facebook fs-2 m-1"></i>
+            <i class="mdi mdi-twitter fs-2 m-1"></i>
+            <i class="mdi mdi-snapchat fs-2 m-1"></i>
+            <i class="mdi mdi-youtube fs-2 m-1"></i>
+        </div>
+    </section>
+</footer>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
